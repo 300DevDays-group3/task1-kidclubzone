@@ -1,4 +1,4 @@
-# Zuriportfolio - Frontend
+# Task1 - KidClubZones
 
 This is a `Html, Css and Javascript` project.
 
