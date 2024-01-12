@@ -1,0 +1,113 @@
+body {
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
+  background-color: #f8f8f8;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+/* HELPER CLASSES */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+/* HELPER CLASSES END */
+
+/* NAVBAR */
+nav {
+  background-color: white;
+}
+.nav__container {
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav_btns {
+  display: none;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav__links li a {
+  text-decoration: none;
+  color: var(--clr-neutral-700);
+  font-weight: 500;
+}
+.nav__links button {
+  border-radius: 8px;
+  background: var(
+    --Gradient,
+    linear-gradient(
+      122deg,
+      #f9c8bf 3.72%,
+      #f87c61 19.56%,
+      #ab26f8 84.21%,
+      #d75efc 100.63%
+    )
+  );
+  height: 40px;
+  color: var(--clr-white);
+  border: none;
+  max-width: 200px;
+  min-width: 120px;
+}
+/* NAVBAR END */
+
+@media (max-width: 780px) {
+  .nav__links {
+    position: fixed;
+    background: white;
+    z-index: 9;
+    inset: 0 0 0 30%;
+    padding-top: 6rem;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    flex-direction: column;
+    transform: translateX(100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    transition: all 250ms ease-in-out;
+  }
+
+  @supports (backdrop-filter: blur(1rem)) {
+    .nav__links {
+      background: hsl(0 0% 100% / 0.1);
+      backdrop-filter: blur(1rem);
+    }
+  }
+  .nav__links buttton {
+    width: calc(100% - 1.5rem);
+  }
+  .show-nav {
+    transform: translateX(0);
+  }
+  .nav_btns {
+    display: flex;
+    position: fixed;
+    right: 3%;
+    z-index: 900;
+  }
+  .nav_btns img {
+    height: 34px;
+    cursor: pointer;
+  }
+}
+/* MEDIA QUERIES FOR NAVBAR ENDING */
