@@ -216,6 +216,56 @@ main {
   background-color: #ffe1e1;
 }
 /* COLOURS */
+/* SECTION 8 STYLING STARTS HERE */
+.section8 {
+    display: flex;
+    width: 1141px;
+    padding: 38.382px 47.5px 39.964px 48.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #EDEFFF;
+    margin: 0 auto;
+    gap: 50px;
+}
+.eight-ii {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+.eight-head {
+    color: #202124;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    position: relative;
+    top: 40px;
+}
+.eight-bio {
+    color: #1E1E1E;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.eight-btn {
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #202020;
+    text-decoration: none;
+    color: #E5E7EB;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* SECTION 8 STYLING ENDS HERE... */
 
 /* Section 12 styling starts here */
 .services__container {
@@ -314,3 +364,4 @@ main {
 section {
   margin-bottom: 4rem;
 }
+
