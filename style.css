@@ -533,6 +533,7 @@ nav {
   overflow: hidden;
 }
 
+
 /* Section 12 styling starts here */
 
 .frame16 {
@@ -597,6 +598,94 @@ nav {
   font-family: "Work sans", "sans-serif";
   color: #202124;
   padding: 8px 0;
+}
+.educational-books {
+  display: flex;
+  width: 1241px;
+  padding: 38.382px 47.5px 39.964px 48.5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #EDEFFF;
+}
+.educational {
+  display: flex;
+  width: 1145px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+.educational .educational-image {
+  display: flex;
+  width: 670px;
+  padding-right: 0.458px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background:  lightgray 50% / cover no-repeat, #FFF;
+  height: auto;
+}
+
+.educational-text h2{
+  color: #202124;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  width: 382px;
+}
+.educational-text p{
+  color: #1E1E1E;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 382px;
+}
+.educational-text button{
+  display: flex;
+  padding: 9.967px 17.94px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.98px;
+  border-radius: 7.974px;
+  background: #202020;
+  color: var(--Neutral-200, #E5E7EB);
+  text-align: justify;
+  font-family: Inter;
+  font-size: 15.947px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media screen and (max-width: 991px) {
+  .educational-books {
+      width: 100%;
+      padding: 20px;
+  }
+  .educational {
+      width: 100%;
+      flex-direction: column;
+      height: auto;
+  }
+  .educational .educational-image {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 20px;
+  }
+  .educational .educational-image img {
+      width: 100%;
+      height: auto;
+  }
+  .educational-text h2,
+  .educational-text p {
+      width: 100%;
+  }
 }
 
 /* Section 12 ends here */
@@ -663,4 +752,5 @@ nav {
  }
 
 }
+
   
