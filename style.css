@@ -469,3 +469,10 @@ section {
     font-size: 2rem;
   }
 }
+
+/* MEDIA QUERIES FOR SECTION 13*/
+@media (max-width: 780px) {
+.text-ii {
+  display: none;
+}
+}
