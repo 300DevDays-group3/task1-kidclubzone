@@ -7,7 +7,7 @@ This is a `Html, Css and Javascript` project.
 #### First clone the repo
 
 ```bash
-git clone origin https://github.com/300DevDays-group3/task1-kidclubzone.git
+git clone https://github.com/300DevDays-group3/task1-kidclubzone.git
 ```
 
 #### Switch to dev branch
