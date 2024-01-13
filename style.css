@@ -113,32 +113,34 @@ nav {
 /* MEDIA QUERIES FOR NAVBAR ENDING */
 
 /* merchandise categories section starts */
-.categories__container > h3 {
+.categories__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.category-header {
   color: rgba(0, 0, 0, 0.87);
   /* font-family: Inter, var(--default-font-family); */
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-.frame-5e {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  gap: 25px;
-}
-
-.frame-5e div {
+.categories__container div {
+  /* background-color: green; */
+  padding-inline: 1rem;
+  padding-block: 1.6rem;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 1rem;
-  padding-block: 1.5rem;
-  border-radius: 13.448px;
 }
-/* COLOURS */
-.frame-5e div p {
+
+.categories__container div p {
   color: #444746;
   font-family: "Work Sans", sans-serif;
 }
+/* COLOURS */
 .light-blue {
   background-color: #d3e3fd;
 }
@@ -258,6 +260,10 @@ nav {
 
 /* Section 13 styling ends here */
 
+section {
+  margin-bottom: 4rem;
+}
+
 /* MEDIA QUERIES GENERAL */
 @media (min-width: 780px) {
   .services__container {
@@ -279,5 +285,11 @@ nav {
   }
   .detail h4 {
     font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  .services__container {
+    /* padding-inline: 6rem; */
   }
 }
