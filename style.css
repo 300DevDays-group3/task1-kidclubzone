@@ -533,72 +533,7 @@ nav {
   overflow: hidden;
 }
 
-
-/* Section 12 styling starts here */
-
-.frame16 {
-  width: 1240px;
-  margin: 90px 0 0 100px;
-  /* padding: 56px 104px 0; */
-	display: flex;
-  gap: 32px;
-}
-
-.frame-do-more{
-  background-color: #1E1E1E;
-	border-radius: 24px;
-}
-
-.frame-do-more img {
-  border-radius: 0 0 24px 24px;
-}
-
-.do-more{
-  padding: 24px 64px;
-}
-
-.do-more h4{ 
-  font-family: "inter", "sans-serif" ;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1.5em;
-  line-height: 42.2px;
-  letter-spacing: -0.72px;
-}
-
-.do-more p{
-  font-family: "Work sans", "sans-serif";
-  color: #fff;
-  padding: 8px 0;
-}
-
-.frame-be-more{
-  background-color: #fff;
-	border-radius: 24px;
-}
-
-.frame-be-more img {
-  border-radius: 0 0 24px 24px;
-}
-
-.be-more{
-  padding: 24px 64px;
-}
-
-.be-more h4 {
-  font-family: "inter", "sans-serif" ;
-  font-weight: 600;
-  color: #202124;
-  font-size: 1.5em;
-  line-height: 32px;
-  letter-spacing: -0.72px;
-}
-
-.be-more p{
-  font-family: "Work sans", "sans-serif";
-  color: #202124;
-  padding: 8px 0;
-}
+/*section 8 starts here*/
 .educational-books {
   display: flex;
   width: 1241px;
@@ -687,6 +622,75 @@ nav {
       width: 100%;
   }
 }
+/*section 8 ends here*/
+
+
+/* Section 12 styling starts here */
+
+.frame16 {
+  width: 1240px;
+  margin: 90px 0 0 100px;
+  /* padding: 56px 104px 0; */
+	display: flex;
+  gap: 32px;
+}
+
+.frame-do-more{
+  background-color: #1E1E1E;
+	border-radius: 24px;
+}
+
+.frame-do-more img {
+  border-radius: 0 0 24px 24px;
+}
+
+.do-more{
+  padding: 24px 64px;
+}
+
+.do-more h4{ 
+  font-family: "inter", "sans-serif" ;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 42.2px;
+  letter-spacing: -0.72px;
+}
+
+.do-more p{
+  font-family: "Work sans", "sans-serif";
+  color: #fff;
+  padding: 8px 0;
+}
+
+.frame-be-more{
+  background-color: #fff;
+	border-radius: 24px;
+}
+
+.frame-be-more img {
+  border-radius: 0 0 24px 24px;
+}
+
+.be-more{
+  padding: 24px 64px;
+}
+
+.be-more h4 {
+  font-family: "inter", "sans-serif" ;
+  font-weight: 600;
+  color: #202124;
+  font-size: 1.5em;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+}
+
+.be-more p{
+  font-family: "Work sans", "sans-serif";
+  color: #202124;
+  padding: 8px 0;
+}
+
 
 /* Section 12 ends here */
 
