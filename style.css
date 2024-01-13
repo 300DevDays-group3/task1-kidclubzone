@@ -470,6 +470,13 @@ section {
   }
 }
 
+/* MEDIA QUERIES FOR SECTION 13*/
+@media (max-width: 780px) {
+.text-ii {
+  display: none;
+}
+}
+
 @media (min-width: 1400px) {
   .class-description {
     padding-inline: 4rem;
