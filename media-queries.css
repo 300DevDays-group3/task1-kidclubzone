@@ -161,3 +161,25 @@
     padding-inline: 4rem;
   }
 }
+/* MEDIA QUERY FOR SECTION 8 */
+@media screen and (max-width: 850px) {
+    .section8 {
+        flex-direction: column;
+        width: 75%;
+        gap: 0px;
+        padding-bottom: 20px;
+    }
+    .section8 img {
+        width: 96%;
+    }
+    .eight-head p {
+        font-size: 2rem;
+    }
+    .eight-bio p {
+        width: 85%;
+    }
+    .eight-ii {
+        position: relative;
+        top: -40px;
+    }
+}
