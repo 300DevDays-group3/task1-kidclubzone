@@ -571,6 +571,7 @@ nav {
   line-height: normal;
   letter-spacing: -0.72px;
   width: 382px;
+  
 }
 .educational-text p{
   color: #1E1E1E;
@@ -580,6 +581,7 @@ nav {
   font-weight: 400;
   line-height: 24px; /* 150% */
   width: 382px;
+  margin-bottom: 30px;
 }
 .educational-text button{
   display: flex;
@@ -588,14 +590,20 @@ nav {
   align-items: center;
   gap: 5.98px;
   border-radius: 7.974px;
-  background: #202020;
-  color: var(--Neutral-200, #E5E7EB);
+  background: #E5E7EB;
+  color: black;
   text-align: justify;
   font-family: Inter;
   font-size: 15.947px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in, color 0.3s ease-out;
+}
+.educational-text button:hover {
+  background-color: black;
+  color: #c2e7ff;
 }
 @media screen and (max-width: 991px) {
   .educational-books {
