@@ -181,8 +181,7 @@ nav {
   height: 24px;
   top: 34.097px;
   left: 232px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 132;
   overflow: hidden;
@@ -231,8 +230,7 @@ nav {
   height: 24px;
   top: 34.097px;
   left: 232.448px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 136;
   overflow: hidden;
@@ -280,8 +278,7 @@ nav {
   height: 24px;
   top: 34.097px;
   left: 231.896px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 140;
   overflow: hidden;
@@ -329,8 +326,7 @@ nav {
   height: 24px;
   top: 34.097px;
   left: 232.343px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 144;
   overflow: hidden;
@@ -378,8 +374,7 @@ nav {
   height: 24px;
   top: 33.858px;
   left: 232px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 148;
   overflow: hidden;
@@ -428,8 +423,7 @@ nav {
   height: 24px;
   top: 33.858px;
   left: 232.448px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 152;
   overflow: hidden;
@@ -477,8 +471,7 @@ nav {
   height: 24px;
   top: 33.858px;
   left: 231.896px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 156;
   overflow: hidden;
@@ -526,8 +519,7 @@ nav {
   height: 24px;
   top: 33.858px;
   left: 232.343px;
-  background: url(/img/arrow1.png)
-    no-repeat center;
+  background: url(/img/arrow1.png) no-repeat center;
   background-size: cover;
   z-index: 160;
   overflow: hidden;
@@ -547,4 +539,78 @@ nav {
     flex-wrap: wrap;
   }
 }
-  
+
+/* Section5 Styling Start */
+
+.sect5MainHeading {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: -1.199690341949463px;
+  text-align: center;
+  color: #202124;
+  margin: 10px 0 20px 0;
+}
+
+.section5 {
+  width: 589.29px;
+  height: 600px;
+  border-radius: 20px;
+  border: none;
+}
+.section5Wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 100px;
+  gap: 42px;
+}
+.sectFiveDiv1 {
+  background-color: #ff564c;
+}
+.sectFiveDiv1,
+.sectFiveDiv4,
+.sectFiveDiv5 h3 {
+  color: #ffffff;
+}
+.section5 h3 {
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  /* letter-spacing: -0.9597523212432861px; */
+  text-align: left;
+
+  margin: 60px 0 40px 27px;
+}
+.sect5ImageWrapper {
+  width: 535px;
+  height: 350px;
+  margin-top: 40.1px;
+  margin-left: 27px;
+  padding: 0px, 0.46px, 0px, 0px;
+  border-radius: 10px;
+}
+.sectFiveDiv2 {
+  background-color: #e8f0fe;
+}
+.sectFiveDiv2,
+.sectFiveDiv3,
+.sectFiveDiv6 h3 {
+  color: #1e1e1e;
+}
+.sect5ImageWrapper > img {
+  width: 100%;
+}
+.sectFiveDiv3 {
+  background-color: #f1f1f1;
+}
+.sectFiveDiv4 {
+  background-color: #7021d5;
+}
+.sectFiveDiv5 {
+  background-color: #1a73e8;
+}
+.sectFiveDiv6 {
+  background-color: #e8f0fe;
+}
