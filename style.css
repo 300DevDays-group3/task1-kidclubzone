@@ -1,6 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
-  /* font-family: 'Work Sans', sans-serif; */
+  font-family: "Work Sans", sans-serif;
   background-color: #f8f8f8;
 }
 
@@ -228,34 +228,43 @@ nav {
 
 /* Section 13 styling starts here */
 
-.students {
-  width: 1240px;
-  margin: 90px 0 0 100px;
-  padding: 56px 104px 0;
+.students__container {
+  padding-block: 4rem;
   background-color: #1e1e1e;
   border-radius: 24px;
   color: white;
 }
 
-.students h4 {
-  font-family: "Inter", "sans serif";
+.students__container h4 {
   font-weight: 600;
-  font-size: 3em;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
   text-align: center;
-  letter-spacing: -1.2 px;
-  line-height: 68.9px;
+  width: 100%;
 }
 
 .text p {
-  font-family: "work sans", "sans serif";
-  line-height: 22.1px;
-  margin: 32px 36px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9rem;
 }
 
 .text {
   display: flex;
   align-items: center;
-  margin: 24px;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.text > div > p:first-child {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 780px) {
+  .full-bleed {
+    box-shadow: 0 0 0 100vmax #1e1e1e;
+    clip-path: inset(0-100vmax);
+  }
 }
 
 /* Section 13 styling ends here */
@@ -277,6 +286,9 @@ section {
     font-size: 15px;
     font-weight: 300;
   }
+  .students__container {
+    padding-inline: 1rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -291,5 +303,14 @@ section {
 @media (min-width: 1020px) {
   .services__container {
     /* padding-inline: 6rem; */
+  }
+  .text {
+    flex-direction: row;
+    text-align: left;
+    padding-inline: 4rem;
+  }
+  .students__container h4 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
   }
 }
