@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KidClubZones</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="resets.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +19,9 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resets.css" />
+    <link rel="stylesheet" href="media-queries.css" />
   </head>
 
   <body>
@@ -47,7 +48,51 @@
     </nav>
     <!-- NAVBAR ENDING -->
 
-    <!-- merchandise categories section starts -->
+    <!-- HERO SECTION BEGINNING -->
+    <main>
+      <div class="hero__container container">
+        <div class="hero-details">
+          <p class="work-sans social-mobile">Follow us on socials</p>
+          <div class="socials">
+            <p class="work-sans desktop">Follow us on socials</p>
+            <img src="./assets/" alt="" />
+            <img src="./assets/svgs/socials/x.svg" alt="" />
+            <img src="./assets/svgs/socials/youtubered.svg" alt="" />
+            <img src="./assets/svgs/socials/instagram.svg" alt="" />
+            <img src="./assets/svgs/socials/linkedin.svg" alt="" />
+            <img src="./assets/svgs/socials/facebook.svg" alt="" />
+            <img src="./assets/svgs/socials/tiktok.svg" alt="" />
+            <img src="./assets/svgs/socials/x.svg" alt="" />
+          </div>
+          <h1 class="hero-title">
+            Sparking their<br />
+            <span>curiosity</span> & creativity.
+          </h1>
+          <p class="work-sans hero-desc">
+            We prepare young minds for an innovative future by igniting
+            imagination, fostering essential soft skills, and providing engaging
+            hands-on learning experiences in coding, STEM, and interactive
+            classes.
+          </p>
+          <button class="inter hero-btn">Get Started</button>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/images/girl-laughing.png" alt="" />
+        </div>
+      </div>
+      <div class="container class-description full-bleed-white">
+        <h3>Unleash their creativity with coding, stem & soft skills</h3>
+        <p>
+          We prepare young minds for an innovative future by igniting
+          imagination, fostering essential soft skills, and providing engaging
+          hands-on learning experiences in coding, STEM, and interactive
+          classes.
+        </p>
+      </div>
+    </main>
+    <!-- HERO SECTION ENDING -->
+
+    <!-- MERCHANDISE CATEGORIES SECTION STARTS -->
     <section>
       <h3 class="container category-header">Merchandise Categories</h3>
       <div class="container categories__container">
@@ -85,9 +130,32 @@
         </div>
       </div>
     </section>
-    <!-- merchandise categories section ends -->
+    <!-- MERCHANDISE CATEGORIES SECTION ENDS -->
 
-    <!-- section 12 starts -->
+    <!-- SECTION 8 STARTS HERE -->
+    <div class="section8">
+      <div class="eight-i">
+        <img
+          src="./assets/images/educational-books.png"
+          alt="educational-books"
+        />
+      </div>
+      <div class="eight-ii">
+        <p class="eight-head">
+          Educational Books Teaching Tech, Business, Economics & Skills
+        </p>
+        <p class="eight-bio">
+          We prepare young minds for an innovative future by igniting
+          imagination, fostering essential soft skills, and providing engaging
+          hands-on learning experiences in coding, STEM, and interactive
+          classes.
+        </p>
+        <a href="" class="eight-btn">Purchase</a>
+      </div>
+    </div>
+    <!-- SECTION 8 ENDS HERE -->
+
+    <!-- SECTION 12 STARTS -->
     <section>
       <div class="container services__container">
         <div>
@@ -96,7 +164,7 @@
             <h4>Virtual Education that makes a difference</h4>
           </div>
           <div class="img-container">
-            <img src="./img/notes1.webp" alt="" />
+            <img src="./assets/images/notes1.webp" alt="" />
           </div>
         </div>
         <div>
@@ -105,21 +173,16 @@
             <h4>We create the perfect virtual learning experience.</h4>
           </div>
           <div class="img-container">
-            <img src="./img/notes2.webp" alt="" />
+            <img src="./assets/images/notes2.webp" alt="" />
           </div>
         </div>
       </div>
     </section>
-    <!-- section 12 ends -->
+    <!-- SECTION 12 ENDS -->
 
-    <!-- section 13 starts -->
-    <!-- 
-    <section class="m-width">
-      <div class="students">
-        <h4>Join other <br />amazing students</h4> -->
-    <!-- section 13 starts -->
-    <!-- <section class="m-width">
-      <div class="students">
+    <!-- SECTION 13 STARTS  -->
+    <section>
+      <div class="students__container container full-bleed">
         <h4>Join other <br />amazing students</h4>
         <div class="text">
           <div>
@@ -137,7 +200,7 @@
               regular school system.
             </p>
           </div>
-          <div>
+          <div class="text-ii">
             <p>
               Get ready for an exciting exploration of the real world! Dive deep
               into fascinating concepts and explore their implications. Discover
@@ -155,7 +218,7 @@
         </div>
       </div>
     </section>
-     <!-- section 13 ends -->
+    <!-- SECTION 13 ENDS -->
 
     <!-- SECTION 9 -->
 
