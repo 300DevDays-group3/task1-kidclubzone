@@ -163,6 +163,15 @@ main {
 /* HERO SECTION ENDING */
 
 /* merchandise categories section starts */
+.merchandise-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+.merchandise-section > h3 {
+  font-size: 1.3rem;
+}
 .categories__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -364,44 +373,42 @@ section {
   border-radius: 6px;
 }
 
-
 /* SECTION 9 STYLING */
-section#flash-card{
-  
+section#flash-card {
   width: 85%;
   height: fit-content;
   box-sizing: border-box;
   /* border: 1px solid #000; */
   border-radius: 20px;
-  background-color: #F6ECFF;
+  background-color: #f6ecff;
   margin-left: auto;
   margin-right: auto;
-  padding:1.5em 2em;
+  padding: 1.5em 2em;
   /* padding-left: 3em; */
   display: flex;
   flex-direction: row;
 }
 
-#flash-card #flash-card-texts{
+#flash-card #flash-card-texts {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-#flash-card h3{
+#flash-card h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
-#flash-card p{
+#flash-card p {
   margin-bottom: 20px;
 }
 
-#flash-card button{
+#flash-card button {
   padding: 10px 16px;
   border: none;
   border-radius: 6px;
@@ -411,7 +418,7 @@ section#flash-card{
   background: #000;
 }
 
-#flash-card img{
+#flash-card img {
   display: none;
 }
 
@@ -428,36 +435,33 @@ section#flash-card{
     font-size: 15px;
     font-weight: 300;
   }
-
 }
 
 @media (min-width: 850px) {
-  #flash-card{
+  #flash-card {
     justify-content: space-between;
     align-items: center;
   }
-  #flash-card img{
+  #flash-card img {
     display: initial;
     width: 50%;
   }
 
-  #flash-card #flash-card-texts{
+  #flash-card #flash-card-texts {
     width: 40%;
     justify-content: center;
     /* border: 1px solid #000; */
-    align-items:flex-start;
+    align-items: flex-start;
   }
 
-  #flash-card h3{
+  #flash-card h3 {
     font-size: 16px;
     font-weight: 700;
   }
 
-  #flash-card p{
+  #flash-card p {
     font-size: 12px;
   }
-  
-
 }
 
 @media (min-width: 900px) {
@@ -474,54 +478,50 @@ section#flash-card{
     /* padding-inline: 6rem; */
   }
 
-  #flash-card h3{
+  #flash-card h3 {
     font-size: 26px;
   }
 
-  #flash-card p{
+  #flash-card p {
     font-size: 16px;
     line-height: 1.5;
   }
 }
 
 @media (min-width: 850px) {
-  #flash-card{
+  #flash-card {
     justify-content: space-between;
     align-items: center;
   }
-  #flash-card img{
+  #flash-card img {
     display: initial;
     width: 50%;
   }
 
-  #flash-card #flash-card-texts{
+  #flash-card #flash-card-texts {
     width: 40%;
     justify-content: center;
     /* border: 1px solid #000; */
-    align-items:flex-start;
+    align-items: flex-start;
   }
 
-  #flash-card h3{
+  #flash-card h3 {
     font-size: 16px;
     font-weight: 700;
   }
 
-  #flash-card p{
+  #flash-card p {
     font-size: 12px;
   }
-  
-
 }
 
 @media (min-width: 1020px) {
-  
-  #flash-card h3{
+  #flash-card h3 {
     font-size: 26px;
   }
 
-  #flash-card p{
+  #flash-card p {
     font-size: 16px;
     line-height: 1.5;
   }
 }
-
