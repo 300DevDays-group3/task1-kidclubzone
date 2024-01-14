@@ -227,12 +227,17 @@ main {
     background: #EDEFFF;
     margin: 0 auto;
     gap: 50px;
+    margin-bottom: 40px;
+}
+.eight-i img {
+  width: 100%;
 }
 .eight-ii {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0px;
+    width: 45%;
 }
 .eight-head {
     color: #202124;
@@ -242,6 +247,7 @@ main {
     letter-spacing: -0.72px;
     position: relative;
     top: 40px;
+    margin-bottom: 40px;
 }
 .eight-bio {
     color: #1E1E1E;
@@ -249,6 +255,7 @@ main {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .eight-btn {
     display: flex;
