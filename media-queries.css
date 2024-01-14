@@ -28,8 +28,8 @@
   }
   .nav_btns {
     display: flex;
-    position: fixed;
-    right: 3%;
+    position: absolute;
+    right: 2%;
     z-index: 900;
   }
   .nav_btns img {
