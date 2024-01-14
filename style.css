@@ -225,7 +225,8 @@ main {
   background-color: #ffe1e1;
 }
 /* COLOURS */
-/* SECTION 8 STYLING STARTS HERE */
+
+/* SECTION 8 & 9 STYLING STARTS HERE */
 .section8 {
   display: flex;
   /* padding: 38.382px 47.5px 39.964px 48.5px; */
@@ -328,11 +329,9 @@ main {
 .services__container .img-container:hover img {
   transform: scale(1.2);
 }
-
 /* Section 12 ends here */
 
 /* Section 13 styling starts here */
-
 .students__container {
   padding-block: 4rem;
   background-color: #1e1e1e;
@@ -368,160 +367,9 @@ main {
 
 section {
   margin-bottom: 4rem;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  border-radius: 6px;
 }
 
 /* SECTION 9 STYLING */
-section#flash-card {
-  width: 85%;
-  height: fit-content;
-  box-sizing: border-box;
-  /* border: 1px solid #000; */
-  border-radius: 20px;
+.bg-pink {
   background-color: #f6ecff;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em 2em;
-  /* padding-left: 3em; */
-  display: flex;
-  flex-direction: row;
-}
-
-#flash-card #flash-card-texts {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#flash-card h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 20px;
-}
-
-#flash-card p {
-  margin-bottom: 20px;
-}
-
-#flash-card button {
-  padding: 10px 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background: #000;
-}
-
-#flash-card img {
-  display: none;
-}
-
-/* MEDIA QUERIES GENERAL */
-@media (min-width: 780px) {
-  .services__container {
-    /* grid-template-columns: 1fr 1fr; */
-    gap: 1.5rem;
-  }
-  .detail h4 {
-    font-size: 1.1rem;
-  }
-  .detail p {
-    font-size: 15px;
-    font-weight: 300;
-  }
-}
-
-@media (min-width: 850px) {
-  #flash-card {
-    justify-content: space-between;
-    align-items: center;
-  }
-  #flash-card img {
-    display: initial;
-    width: 50%;
-  }
-
-  #flash-card #flash-card-texts {
-    width: 40%;
-    justify-content: center;
-    /* border: 1px solid #000; */
-    align-items: flex-start;
-  }
-
-  #flash-card h3 {
-    font-size: 16px;
-    font-weight: 700;
-  }
-
-  #flash-card p {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 900px) {
-  .services__container {
-    /* padding-inline: 19rem; */
-  }
-  .detail h4 {
-    font-size: 1.3rem;
-  }
-}
-
-@media (min-width: 1020px) {
-  .services__container {
-    /* padding-inline: 6rem; */
-  }
-
-  #flash-card h3 {
-    font-size: 26px;
-  }
-
-  #flash-card p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-}
-
-@media (min-width: 850px) {
-  #flash-card {
-    justify-content: space-between;
-    align-items: center;
-  }
-  #flash-card img {
-    display: initial;
-    width: 50%;
-  }
-
-  #flash-card #flash-card-texts {
-    width: 40%;
-    justify-content: center;
-    /* border: 1px solid #000; */
-    align-items: flex-start;
-  }
-
-  #flash-card h3 {
-    font-size: 16px;
-    font-weight: 700;
-  }
-
-  #flash-card p {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 1020px) {
-  #flash-card h3 {
-    font-size: 26px;
-  }
-
-  #flash-card p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
 }
