@@ -116,6 +116,9 @@
     flex-direction: row;
     gap: 3rem;
   }
+  .merchandise-section > h3 {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 900px) {
