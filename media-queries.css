@@ -36,10 +36,7 @@
     height: 34px;
     cursor: pointer;
   }
-}
-/* MEDIA QUERIES FOR NAVBAR ENDING */
 
-@media (max-width: 780px) {
   .full-bleed {
     box-shadow: 0 0 0 100vmax #1e1e1e;
     clip-path: inset(0-100vmax);
@@ -53,6 +50,9 @@
     display: none;
   }
 }
+/* MEDIA QUERIES FOR NAVBAR ENDING */
+
+/* MEDIA QUERY FOR SECTION 8 */
 
 /* MEDIA QUERIES GENERAL */
 @media (min-width: 780px) {
@@ -112,6 +112,10 @@
     padding-block: 3rem;
     gap: 1rem;
   }
+  .section8 {
+    flex-direction: row;
+    gap: 3rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -134,6 +138,17 @@
 
   .detail h4 {
     font-size: 1.3rem;
+  }
+  .section8 {
+    padding-inline: 2.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .eight-head {
+    font-size: 1.5rem;
+  }
+  .eight-bio {
+    font-size: 1rem;
   }
 }
 
@@ -160,27 +175,12 @@
   .class-description {
     padding-inline: 4rem;
   }
-}
-/* MEDIA QUERY FOR SECTION 8 */
-@media screen and (max-width: 850px) {
-    .section8 {
-        flex-direction: column;
-        width: 90%;
-        gap: 0px;
-        padding-bottom: 20px;
-    }
-    .section8 img {
-        width: 96%;
-    }
-    .eight-head p {
-        font-size: 2rem;
-    }
-    .eight-bio p {
-        width: 85%;
-    }
-    .eight-ii {
-        position: relative;
-        top: -40px;
-        width: 100%;
-    }
+
+  .eight-head {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .section8 {
+    max-width: 1241px;
+  }
 }
