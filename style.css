@@ -227,6 +227,58 @@ main {
 }
 /* COLOURS */
 
+/*section 7 starts here */
+.seven7 {
+  display: flex;
+  /* padding: 38.382px 47.5px 39.964px 48.5px; */
+  padding-inline: 0.8rem;
+  padding-block: 2.5rem;
+  align-items: center;
+  border-radius: 20px;
+  background: #FEF7E0;
+  margin: 0 auto;
+  gap: 1.4rem;
+  flex-direction: column;
+}
+.seven-ii img {
+  width: 100%;
+  
+}
+.seven-i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.seven-head {
+  color: #202124;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  width: 381px;
+  /* margin-bottom: 40px; */
+}
+.seven-bio {
+  color: #1e1e1e;
+  font-family: Work Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.seven-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #202020;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 600;
+}
+/* section 7 ends here */
+
 /* SECTION 8 & 9 STYLING STARTS HERE */
 .section8 {
   display: flex;
@@ -235,7 +287,7 @@ main {
   padding-block: 2.5rem;
   align-items: center;
   border-radius: 20px;
-  background: #edefff;
+  background: #FEF7E0;
   margin: 0 auto;
   gap: 1.4rem;
   flex-direction: column;
