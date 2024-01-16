@@ -133,9 +133,6 @@
     text-align: left;
     align-items: flex-start;
   }
-  .column h1 {
-    font-size: 2rem;
-  }
 
   .intro h3 {
     font-size: 1.9rem;
@@ -209,6 +206,10 @@
   }
   .intro h3 {
     font-size: 2.3rem;
+  }
+
+  .column h1 {
+    font-size: 2rem;
   }
 }
 
