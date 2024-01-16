@@ -89,6 +89,7 @@ main {
   gap: 0.8rem;
   text-align: center;
 }
+
 .socials {
   display: flex;
   gap: 0.8rem;
@@ -242,6 +243,9 @@ main {
   /* display: none; */
   flex-direction: column;
 }
+.section8 {
+  background-color: #edefff !important;
+}
 .seven-ii img {
   width: 100%;
 }
@@ -292,7 +296,7 @@ main {
   margin: 0 auto;
   gap: 1.4rem;
   flex-direction: column;
-
+}
 .section7 {
   background-color: #fef7e0;
 }
@@ -342,74 +346,57 @@ main {
 /* SECTION 8 STYLING ENDS HERE... */
 
 /* SECTION 11 STYLING STARTS HERE */
-.course-portal-heading {
-  color: rgba(0, 0, 0, 0.87);
-  font-family: Inter;
-  font-size: 2.625rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.02625rem;
+.courses__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.course-portal-text {
+.intro h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.intro p {
   color: #2d312f;
-  font-family: Work Sans;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 0.9rem;
 }
 .courses {
-  margin-block: 2.62rem;
-  display: flex;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 1.3125rem 1.375rem;
-  flex-wrap: wrap;
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)) !important;
+  gap: 1.5rem;
+  /* background-color: gray; */
 }
 .course {
   display: flex;
-  width: 24.9375rem;
   padding: 1.46694rem 1.1735rem 1.1735rem 1.1735rem;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 1.17356rem;
-  flex-shrink: 0;
-  border-radius: 1.46694rem;
+  gap: 1.17rem;
+  border-radius: 1.4rem;
   background: #fff;
-  /* flex-wrap: wrap; */
 }
-.course-icon-text {
+.top {
   display: flex;
-  width: 22.59044rem;
-  height: 4.69413rem;
-  padding-left: 0rem;
-  justify-content: center;
-  align-items: center;
-  gap: 1.1735rem;
+  gap: 1rem;
 }
-.course-head {
+
+.course h3 {
   color: #000;
-  font-family: Inter;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.76031rem; /* 156.471% */
 }
-.course-text {
+.course p {
   color: #000;
-  font-family: Work Sans;
+  font-family: "Work Sans", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.46694rem; /* 167.647% */
-  display: flex;
-  width: 16.67069rem;
-  height: 2.78713rem;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+}
+.course-img-container {
+  width: 100%;
+}
+.course-img-container img {
+  width: 100%;
 }
 /* SECTION 11 STYLING STARTS ENDS */
 
@@ -581,7 +568,6 @@ footer {
   border-bottom: 1px solid rgba(30, 30, 30, 0.2);
   padding-bottom: 2rem;
   padding-inline: 0.5rem;
-  /* box-shadow: 0px 3.48px 15.052px 0px rgba(0, 0, 0, 0.05); */
 }
 
 /* styling the logo and social media*/
@@ -590,11 +576,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
-}
-
-/* style to reduce the size of the logo */
-.logo {
-  /* width: 20rem; */
 }
 
 /* styling for footer lists */
@@ -691,7 +672,4 @@ footer {
 .footer-email p {
   font-size: 0.8rem;
   color: #1e1e1e;
-}
-.footer-logoSocial .socials .desktop {
-  /* display: none; */
 }
