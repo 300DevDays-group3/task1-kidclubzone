@@ -1,11 +1,10 @@
-p {
+.hide-bottom {
   opacity: 0;
   position: relative;
   bottom: -40px;
   transition: all 0.5s ease-out;
 }
-
-.show {
+.show-bottom {
   opacity: 1;
   bottom: 0;
 }
@@ -24,11 +23,12 @@ p {
 
 @media (min-width: 780px) {
   .hide-left {
-    position: relative;
     opacity: 0;
     transform: translateX(-100%);
+    position: relative;
     transition: all 0.8s ease-out;
   }
+
   .show-left {
     opacity: 1;
     transform: translateX(0);

@@ -36,8 +36,8 @@ const setup = () => {
           entry.target.classList.add("show-right");
         } else if (entry.target.classList.contains("hide-left")) {
           entry.target.classList.add("show-left");
-        } else {
-          entry.target.classList.add("show");
+        } else if (entry.target.classList.contains("hide-bottom")) {
+          entry.target.classList.add("show-bottom");
         }
         observer.unobserve(entry.target);
       } else {

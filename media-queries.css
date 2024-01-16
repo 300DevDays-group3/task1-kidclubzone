@@ -147,9 +147,18 @@
     font-size: 1.1rem;
     font-weight: 600;
   }
-  .course p {
+  .course-desc {
     font-size: 0.875rem;
     font-weight: 400;
+  }
+  .gallery__container h3 {
+    font-size: 2rem;
+  }
+  .gallery-item p {
+    font-size: 1.6rem;
+  }
+  .gallery {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -212,6 +221,30 @@
   .column h1 {
     font-size: 2rem;
   }
+  .gallery-item {
+    padding-inline: 3.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  .join-our-team__container {
+    flex-direction: row;
+    padding-inline: 2rem;
+    justify-content: space-between;
+  }
+
+  .join-our-team__container div:nth-child(1) {
+    text-align: left;
+  }
+  .join-our-team__container div:nth-child(1) button {
+    align-self: flex-start;
+  }
+  .course {
+    align-items: flex-start;
+  }
+  .course-desc-mobile {
+    display: none;
+  }
+  .course-desc-desk {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 1020px) {
@@ -229,6 +262,16 @@
   }
   .class-description h4 {
     font-size: 2rem;
+  }
+  .gallery__container h3 {
+    font-size: 2.7rem;
+    letter-spacing: -1.2px;
+  }
+  .gallery-item p {
+    font-size: 2rem;
+  }
+  .join-our-team__container {
+    padding-inline: 2.625rem;
   }
 }
 /* MEDIA QUERIES FOR SECTION 13*/
