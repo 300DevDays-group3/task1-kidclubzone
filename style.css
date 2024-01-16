@@ -2,7 +2,7 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Work Sans", sans-serif;
   background-color: #f8f8f8;
-  padding-bottom: 18rem;
+  overflow-x: hidden;
 }
 
 .bg {
@@ -565,4 +565,133 @@ section {
   /* transform: rotate(5deg); */
   /* background-color: gray; */
   object-fit: cover;
+}
+
+/* starting with large screen */
+footer {
+  padding-block: 3rem;
+  background-color: var(--clr-white);
+}
+
+/* starting first with the footer-container */
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+  border-bottom: 1px solid rgba(30, 30, 30, 0.2);
+  padding-bottom: 2rem;
+  padding-inline: 0.5rem;
+  /* box-shadow: 0px 3.48px 15.052px 0px rgba(0, 0, 0, 0.05); */
+}
+
+/* styling the logo and social media*/
+.footer-logoSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+/* style to reduce the size of the logo */
+.logo {
+  /* width: 20rem; */
+}
+
+/* styling for footer lists */
+.footer-lists {
+  /* display: flex;
+  gap: 3rem;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+/* stlying for footer lists headers */
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list h3 {
+  font-size: 0.9rem;
+  font-family: "work", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-list ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-list ul a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* styling for the email input */
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  min-width: 100%;
+}
+
+.footer-email h3 {
+  color: #1e1e1e;
+  font-family: Work Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 1.25rem; */
+}
+
+.footer-email form {
+  padding: 10px;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 0.5px solid #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-email form input {
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.footer-email form input::placeholder {
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: normal;
+  /* color: red; */
+}
+
+.footer-email button {
+  background-color: white;
+  right: 10px;
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Work" Sans;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.footer-email p {
+  font-size: 0.8rem;
+  color: #1e1e1e;
+}
+.footer-logoSocial .socials .desktop {
+  /* display: none; */
 }

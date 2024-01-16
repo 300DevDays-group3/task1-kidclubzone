@@ -194,6 +194,9 @@
   .column2 img:nth-child(5) {
     margin-left: -120px;
   }
+  footer {
+    padding-block: 4rem;
+  }
 }
 
 @media (min-width: 1020px) {
