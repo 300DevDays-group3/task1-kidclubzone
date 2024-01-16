@@ -243,6 +243,9 @@ main {
   /* display: none; */
   flex-direction: column;
 }
+.section8 {
+  background-color: #edefff !important;
+}
 .seven-ii img {
   width: 100%;
 }
@@ -344,7 +347,17 @@ main {
 
 /* SECTION 11 STYLING STARTS HERE */
 .courses__container {
-  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.intro h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.intro p {
+  color: #2d312f;
+  font-size: 0.9rem;
 }
 .courses {
   /* width: 100%; */
