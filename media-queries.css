@@ -179,6 +179,7 @@
   .section9 {
     padding-inline: 2.5rem;
     display: grid;
+    padding-block: 2.5rem;
     grid-template-columns: 1.5fr 1fr;
   }
 

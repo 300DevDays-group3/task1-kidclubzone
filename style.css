@@ -245,8 +245,8 @@ main {
 .section8,
 .section9 {
   display: flex;
-  padding-inline: 0.8rem;
-  padding-block: 2.5rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
   align-items: center;
   border-radius: 20px;
   margin: 0 auto;
