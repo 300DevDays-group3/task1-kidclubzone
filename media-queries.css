@@ -79,9 +79,7 @@
   .socials {
     max-width: 430px;
   }
-  .hero-img img {
-    /* max-height: 400px; */
-  }
+
   .hero-btn {
     align-self: start;
     margin-top: 1rem;
@@ -112,11 +110,26 @@
     padding-block: 3rem;
     gap: 1rem;
   }
-  .section8 {
+  .section8,
+  .section7,
+  .section9 {
     flex-direction: row;
     gap: 3rem;
   }
   .merchandise-section > h3 {
+    font-size: 2rem;
+  }
+  .join__container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-inline: 2rem;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .column {
+    text-align: left;
+  }
+  .column h1 {
     font-size: 2rem;
   }
 }
@@ -142,16 +155,44 @@
   .detail h4 {
     font-size: 1.3rem;
   }
-  .section8 {
+  .section7,
+  .section8,
+  .section9 {
     padding-inline: 2.5rem;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
   }
-  .eight-head {
+
+  .section7,
+  .section9 {
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .eight-head,
+  .seven-head,
+  .nine-head {
     font-size: 1.5rem;
   }
-  .eight-bio {
+  .eight-bio,
+  .seven-bio,
+  .nine-bio {
     font-size: 1rem;
+  }
+  .column2 img {
+    /* justify-self: end; */
+  }
+
+  .column2 img:nth-child(2) {
+    margin-left: -30px;
+  }
+  .column2 img:nth-child(3) {
+    margin-left: -60px;
+  }
+  .column2 img:nth-child(4) {
+    margin-left: -90px;
+  }
+  .column2 img:nth-child(5) {
+    margin-left: -120px;
   }
 }
 
@@ -179,11 +220,15 @@
     padding-inline: 4rem;
   }
 
-  .eight-head {
+  .eight-head,
+  .seven-head,
+  .nine-head {
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
-  .section8 {
+  .section8,
+  .section7,
+  .section9 {
     max-width: 1241px;
   }
 }
