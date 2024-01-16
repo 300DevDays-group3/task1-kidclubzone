@@ -187,3 +187,25 @@
     max-width: 1241px;
   }
 }
+/* MEDIA QUERY FOR SECTION 2 */
+@media screen and (max-width: 850px) {
+  .hero-details {
+    order: 2;
+    width: 100%;
+  }
+  .hero-img {
+    order: 1;
+  }
+  .hero-img img {
+    width: 350px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .social-mobile {
+    order: 4;
+  }
+  .socials {
+    order: 5;
+    margin-bottom: 15px;
+  }
+}
