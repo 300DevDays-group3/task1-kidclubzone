@@ -155,10 +155,13 @@ main {
   padding-block: 2rem;
   background-color: white;
   text-align: center;
-  /* box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05); */
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  padding-inline: 0.7rem;
+  gap: 1rem;
 }
 .class-description h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #202124;
 }
@@ -450,11 +453,6 @@ section {
 }
 
 /* SECTION 9 STYLING */
-.bg-pink {
-  background-color: #f6ecff;
-}
-
-/*  */
 .join__container {
   display: flex;
   /* justify-content: space-between; */
@@ -462,7 +460,6 @@ section {
   flex-direction: column;
   background-color: #1e1e1e;
   color: #fff;
-  border-radius: 2rem;
   gap: 2rem;
   padding-block: 2rem;
 }
@@ -472,6 +469,7 @@ section {
   flex-direction: column;
   gap: 0.9rem;
   text-align: center;
+  align-items: center;
 }
 .column h1 {
   font-size: 1.2rem;
