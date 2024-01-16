@@ -244,6 +244,10 @@
   .section9 {
     max-width: 1241px;
   }
+  .courses {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    /* background-color: gray; */
+  }
 }
 /* MEDIA QUERY FOR SECTION 2 */
 @media screen and (max-width: 850px) {
