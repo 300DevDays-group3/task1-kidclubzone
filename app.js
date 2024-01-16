@@ -21,3 +21,39 @@ toggleNavBtn.addEventListener("click", () => {
     document.body.style.overflowY = "scroll";
   }
 });
+
+// INTERSECTION OBSERVERS
+const setup = () => {
+  const options = {
+    rootMargin: "0px 0px -200px 0px",
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        console.log(entry.target.classList);
+        if (entry.target.classList.contains("hide-right")) {
+          entry.target.classList.add("show-right");
+        } else if (entry.target.classList.contains("hide-left")) {
+          entry.target.classList.add("show-left");
+        } else {
+          entry.target.classList.add("show");
+        }
+        observer.unobserve(entry.target);
+      } else {
+        return;
+      }
+    });
+  }, options);
+
+  const paragraphs = document.querySelectorAll("p");
+  const heroDetails = document.getElementById("hero-details");
+  const heroImg = document.getElementById("hero-img");
+  observer.observe(heroImg);
+  observer.observe(heroDetails);
+  paragraphs.forEach((para) => {
+    observer.observe(para);
+  });
+};
+
+window.addEventListener("DOMContentLoaded", setup);

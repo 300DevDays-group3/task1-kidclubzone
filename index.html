@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="resets.css" />
     <link rel="stylesheet" href="media-queries.css" />
+    <link rel="stylesheet" href="intersection-observers.css" />
   </head>
 
   <body>
@@ -55,7 +56,7 @@
     <!-- HERO SECTION BEGINNING -->
     <main>
       <div class="hero__container container">
-        <div class="hero-details">
+        <div class="hero-details hide-left" id="hero-details">
           <p class="work-sans social-mobile">Follow us on socials</p>
           <div class="socials">
             <p class="work-sans desktop">Follow us on socials</p>
@@ -80,7 +81,7 @@
           </p>
           <button class="inter hero-btn">Get Started</button>
         </div>
-        <div class="hero-img">
+        <div class="hero-img hide-right" id="hero-img">
           <img src="./assets/images/girl-laughing.png" alt="" />
         </div>
       </div>
