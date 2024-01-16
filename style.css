@@ -592,6 +592,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .footer-email form input {
@@ -599,6 +600,7 @@ footer {
   border: none;
   outline: none;
   background-color: transparent;
+  width: 100%;
 }
 
 .footer-email form input::placeholder {
