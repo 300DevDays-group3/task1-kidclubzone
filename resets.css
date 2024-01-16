@@ -28,6 +28,7 @@
   --transition: all 350ms ease-in-out;
   --container-md: 93%;
   --container-lg: 88%;
+  --container-xl: 75%;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -73,5 +74,11 @@ svg {
 @media (min-width: 780px) {
   .container {
     width: var(--container-lg);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: var(--container-xl);
   }
 }
