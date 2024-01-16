@@ -390,3 +390,56 @@ section {
 .bg-pink {
   background-color: #f6ecff;
 }
+
+/*  */
+.join__container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 2rem;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  text-align: center;
+}
+.column h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.column p {
+  font-size: 0.9rem;
+}
+
+.column button {
+  padding-inline: 1.3rem;
+  padding-block: 0.5rem;
+  border-radius: 100vh;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 17px;
+  max-width: 170px;
+  /* font-weight: 600; */
+}
+.column2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.75rem, 1fr));
+  width: 100%;
+}
+
+.column2 img {
+  /* border-radius: 26.572px; */
+  /* border: 8.857px solid #1e1e1e; */
+  /* transform: rotate(5deg); */
+  /* background-color: gray; */
+  object-fit: cover;
+}
