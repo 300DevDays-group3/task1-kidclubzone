@@ -139,6 +139,17 @@
   .intro p {
     font-size: 1rem;
   }
+  .course {
+    padding-inline: 1.125rem;
+  }
+  .course h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .course p {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 900px) {
