@@ -242,6 +242,57 @@ main {
   /* display: none; */
   flex-direction: column;
 }
+.seven-ii img {
+  width: 100%;
+}
+.seven-i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.seven-head {
+  color: #202124;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  width: 381px;
+  /* margin-bottom: 40px; */
+}
+.seven-bio {
+  color: #1e1e1e;
+  font-family: Work Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.seven-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #202020;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 600;
+}
+/* section 7 ends here */
+
+/* SECTION 8 & 9 STYLING STARTS HERE */
+.section8 {
+  display: flex;
+  /* padding: 38.382px 47.5px 39.964px 48.5px; */
+  padding-inline: 0.8rem;
+  padding-block: 2.5rem;
+  align-items: center;
+  border-radius: 20px;
+  background: #fef7e0;
+  margin: 0 auto;
+  gap: 1.4rem;
+  flex-direction: column;
+
 .section7 {
   background-color: #fef7e0;
 }
@@ -289,6 +340,78 @@ main {
 }
 
 /* SECTION 8 STYLING ENDS HERE... */
+
+/* SECTION 11 STYLING STARTS HERE */
+.course-portal-heading {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02625rem;
+}
+.course-portal-text {
+  color: #2d312f;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.courses {
+  margin-block: 2.62rem;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1.3125rem 1.375rem;
+  flex-wrap: wrap;
+}
+.course {
+  display: flex;
+  width: 24.9375rem;
+  padding: 1.46694rem 1.1735rem 1.1735rem 1.1735rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1.17356rem;
+  flex-shrink: 0;
+  border-radius: 1.46694rem;
+  background: #fff;
+  /* flex-wrap: wrap; */
+}
+.course-icon-text {
+  display: flex;
+  width: 22.59044rem;
+  height: 4.69413rem;
+  padding-left: 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1735rem;
+}
+.course-head {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.76031rem; /* 156.471% */
+}
+.course-text {
+  color: #000;
+  font-family: Work Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.46694rem; /* 167.647% */
+  display: flex;
+  width: 16.67069rem;
+  height: 2.78713rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+/* SECTION 11 STYLING STARTS ENDS */
 
 /* Section 12 styling starts here */
 .services__container {

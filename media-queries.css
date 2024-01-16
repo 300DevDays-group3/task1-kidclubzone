@@ -254,25 +254,22 @@
     margin-bottom: 15px;
   }
 }
-/* MEDIA QUERY FOR SECTION 2 */
-@media screen and (max-width: 850px) {
-  .hero-details {
-    order: 2;
-    width: 100%;
+
+/* media query for section 11 */
+@media screen and (max-width: 700px) {
+  .course {
+    margin-inline: auto;
   }
-  .hero-img {
-    order: 1;
+  .course-portal-heading {
+    font-size: 1.625rem;
   }
-  .hero-img img {
-    width: 350px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+  .course-portal-text {
+    font-size: 1rem;
   }
-  .social-mobile {
-    order: 4;
-  }
-  .socials {
-    order: 5;
-    margin-bottom: 15px;
+}
+@media screen and (min-width: 710px) {
+  .course {
+    /* margin-inline: auto; */
+    width: 24rem;
   }
 }
